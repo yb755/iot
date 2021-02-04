@@ -7,5 +7,7 @@
   <modules>
   	<module>iot-pom</module>
   	<module>common</module>
+  	<module>biz-push</module>
+  	<module>biz-user</module>
   </modules>
 </project>
