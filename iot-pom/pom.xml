@@ -5,7 +5,7 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <properties>
-		<ybiot.version>0.0.1-SNAPSHOT</ybiot.version>
+		<iotframe.version>0.0.1-SNAPSHOT</iotframe.version>
 		<spring.version>5.2.1.RELEASE</spring.version>
 		<spring.data.version>2.2.2.RELEASE</spring.data.version>
 		<spring.boot.version>2.2.1.RELEASE</spring.boot.version>
@@ -49,8 +49,8 @@
 		<dependencies>
 			<dependency>
 				<groupId>cn.iotframe</groupId>
-				<artifactId>linze-pom</artifactId>
-				<version>${ybiot.version}</version>
+				<artifactId>iot-pom</artifactId>
+				<version>${iotframe.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>cn.iotframe</groupId>
