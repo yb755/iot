@@ -6,4 +6,10 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>biz-user-provider-dubbo</artifactId>
+  <dependencies>
+  	<dependency>
+  		<groupId>cn.iotframe</groupId>
+  		<artifactId>biz-user-provider</artifactId>
+  	</dependency>
+  </dependencies>
 </project>

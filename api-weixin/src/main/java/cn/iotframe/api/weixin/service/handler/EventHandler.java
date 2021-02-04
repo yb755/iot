@@ -11,6 +11,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import cn.iotframe.api.weixin.annotation.WeiXinMsgHandler;
 import cn.iotframe.api.weixin.model.ReceiveXmlModel;
 import cn.iotframe.api.weixin.model.SendXmlModel;
+import cn.iotframe.biz.user.service.UserService;
+import cn.iotframe.biz.user.service.WeiXinService;
 
 @WeiXinMsgHandler(msgType = "event")
 public class EventHandler implements MessageHandler {
