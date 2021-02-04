@@ -9,5 +9,8 @@
   	<module>common</module>
   	<module>biz-push</module>
   	<module>biz-user</module>
+  	<module>api-weixin</module>
+  	<module>dp-binlog-kafka</module>
+  	<module>dp-command-mqtt</module>
   </modules>
 </project>
