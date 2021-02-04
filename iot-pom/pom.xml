@@ -55,139 +55,159 @@
 			<dependency>
 				<groupId>cn.iotframe</groupId>
 				<artifactId>biz-user-service-dubbo</artifactId>
-				<version>${ybiot.version}</version>
+				<version>${iotframe.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>cn.iotframe</groupId>
 				<artifactId>biz-user-service</artifactId>
-				<version>${ybiot.version}</version>
+				<version>${iotframe.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>cn.iotframe</groupId>
 				<artifactId>biz-user-provider</artifactId>
-				<version>${ybiot.version}</version>
+				<version>${iotframe.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>cn.iotframe</groupId>
 				<artifactId>biz-user-provider-dubbo</artifactId>
-				<version>${ybiot.version}</version>
+				<version>${iotframe.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>cn.iotframe</groupId>
 				<artifactId>biz-push-service</artifactId>
-				<version>${ybiot.version}</version>
+				<version>${iotframe.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>cn.iotframe</groupId>
 				<artifactId>biz-push-service-dubbo</artifactId>
-				<version>${ybiot.version}</version>
+				<version>${iotframe.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>cn.iotframe</groupId>
 				<artifactId>biz-push-provider</artifactId>
-				<version>${ybiot.version}</version>
+				<version>${iotframe.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>cn.iotframe</groupId>
 				<artifactId>biz-push-provider-dubbo</artifactId>
-				<version>${ybiot.version}</version>
+				<version>${iotframe.version}</version>
 			</dependency>			
 			<dependency>
 				<groupId>cn.iotframe</groupId>
 				<artifactId>biz-report-service</artifactId>
-				<version>${ybiot.version}</version>
+				<version>${iotframe.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>cn.iotframe</groupId>
 				<artifactId>biz-report-service-dubbo</artifactId>
-				<version>${ybiot.version}</version>
+				<version>${iotframe.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>cn.iotframe</groupId>
 				<artifactId>biz-report-provider</artifactId>
-				<version>${ybiot.version}</version>
+				<version>${iotframe.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>cn.iotframe</groupId>
 				<artifactId>biz-report-provider-dubbo</artifactId>
-				<version>${ybiot.version}</version>
+				<version>${iotframe.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>cn.iotframe</groupId>
 				<artifactId>biz-weixin-service</artifactId>
-				<version>${ybiot.version}</version>
+				<version>${iotframe.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>cn.iotframe</groupId>
 				<artifactId>biz-weixin-service-dubbo</artifactId>
-				<version>${ybiot.version}</version>
+				<version>${iotframe.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>cn.iotframe</groupId>
 				<artifactId>biz-weixin-provider</artifactId>
-				<version>${ybiot.version}</version>
+				<version>${iotframe.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>cn.iotframe</groupId>
 				<artifactId>biz-weixin-provider-dubbo</artifactId>
-				<version>${ybiot.version}</version>
+				<version>${iotframe.version}</version>
 			</dependency>
 			
 			<!-- common-tool -->
 			<dependency>
 				<groupId>cn.iotframe</groupId>
 				<artifactId>common-boot</artifactId>
-				<version>${ybiot.version}</version>
+				<version>${iotframe.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>cn.iotframe</groupId>
 				<artifactId>common-boot-web</artifactId>
-				<version>${ybiot.version}</version>
+				<version>${iotframe.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>cn.iotframe</groupId>
 				<artifactId>common-database</artifactId>
-				<version>${ybiot.version}</version>
+				<version>${iotframe.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>cn.iotframe</groupId>
 				<artifactId>common-config</artifactId>
-				<version>${ybiot.version}</version>
+				<version>${iotframe.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>cn.iotframe</groupId>
-				<artifactId>common-emqtt</artifactId>
-				<version>${ybiot.version}</version>
+				<artifactId>common-jackson</artifactId>
+				<version>${iotframe.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>cn.iotframe</groupId>
 				<artifactId>common-mongo</artifactId>
-				<version>${ybiot.version}</version>
+				<version>${iotframe.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>cn.iotframe</groupId>
+				<artifactId>common-emqtt</artifactId>
+				<version>${iotframe.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>cn.iotframe</groupId>
+				<artifactId>common-utils</artifactId>
+				<version>${iotframe.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>cn.iotframe</groupId>
+				<artifactId>common-pagination</artifactId>
+				<version>${iotframe.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>cn.iotframe</groupId>
+				<artifactId>common-mongo</artifactId>
+				<version>${iotframe.version}</version>
 			</dependency>			
 			<dependency>
 				<groupId>cn.iotframe</groupId>
 				<artifactId>common-kafka-consumer</artifactId>
-				<version>${ybiot.version}</version>
+				<version>${iotframe.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>cn.iotframe</groupId>
 				<artifactId>common-kafka-producer</artifactId>
-				<version>${ybiot.version}</version>
+				<version>${iotframe.version}</version>
 			</dependency>			
 			<dependency>
 				<groupId>cn.iotframe</groupId>
 				<artifactId>common-influxdb</artifactId>
-				<version>${ybiot.version}</version>
+				<version>${iotframe.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>cn.iotframe</groupId>
 				<artifactId>common-elasticsearch</artifactId>
-				<version>${ybiot.version}</version>
+				<version>${iotframe.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>cn.iotframe</groupId>
 				<artifactId>common-solr</artifactId>
-				<version>${ybiot.version}</version>
+				<version>${iotframe.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.fasterxml.jackson.core</groupId>

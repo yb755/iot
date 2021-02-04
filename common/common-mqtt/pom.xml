@@ -2,15 +2,8 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>cn.iotframe</groupId>
-    <artifactId>iot</artifactId>
+    <artifactId>common</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>biz-user</artifactId>
-  <packaging>pom</packaging>
-  <modules>
-  	<module>biz-user-service</module>
-  	<module>biz-user-provider</module>
-  	<module>biz-user-service-dubbo</module>
-  	<module>biz-user-provider-dubbo</module>
-  </modules>
+  <artifactId>common-mqtt</artifactId>
 </project>

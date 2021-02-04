@@ -12,5 +12,10 @@
   	<module>common-config</module>
   	<module>common-database</module>
   	<module>common-elasticsearch</module>
+  	<module>common-utils</module>
+  	<module>common-mqtt</module>
+  	<module>common-mongo</module>
+  	<module>common-pagination</module>
+  	<module>common-jackson</module>
   </modules>
 </project>
