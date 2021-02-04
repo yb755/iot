@@ -12,5 +12,6 @@
   	<module>api-weixin</module>
   	<module>dp-binlog-kafka</module>
   	<module>dp-command-mqtt</module>
+  	<module>biz-report</module>
   </modules>
 </project>
