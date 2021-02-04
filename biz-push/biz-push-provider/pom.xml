@@ -2,15 +2,8 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>cn.iotframe</groupId>
-    <artifactId>iot-pom</artifactId>
+    <artifactId>biz-push</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>biz-push</artifactId>
-  <packaging>pom</packaging>
-  <modules>
-  	<module>biz-push-service</module>
-  	<module>biz-push-provider</module>
-  	<module>biz-push-service-dubbo</module>
-  	<module>biz-push-provider-dubbo</module>
-  </modules>
+  <artifactId>biz-push-provider</artifactId>
 </project>
