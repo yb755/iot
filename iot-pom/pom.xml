@@ -2,10 +2,10 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>cn.iotframe</groupId>
   <artifactId>iot-pom</artifactId>
-  <version>0.0.1</version>
+  <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <properties>
-		<iotframe.version>0.0.1</iotframe.version>
+		<iotframe.version>0.0.1-SNAPSHOT</iotframe.version>
 		<spring.version>5.2.1.RELEASE</spring.version>
 		<spring.data.version>2.2.2.RELEASE</spring.data.version>
 		<spring.boot.version>2.2.1.RELEASE</spring.boot.version>
