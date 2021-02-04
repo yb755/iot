@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>com.yebing</groupId>
+    <groupId>cn.iotframe</groupId>
     <artifactId>iot</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
@@ -51,144 +51,144 @@
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
-				<groupId>com.ybiot</groupId>
+				<groupId>cn.iotframe</groupId>
 				<artifactId>linze-pom</artifactId>
 				<version>${ybiot.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.ybiot</groupId>
+				<groupId>cn.iotframe</groupId>
 				<artifactId>biz-user-service-dubbo</artifactId>
 				<version>${ybiot.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.ybiot</groupId>
+				<groupId>cn.iotframe</groupId>
 				<artifactId>biz-user-service</artifactId>
 				<version>${ybiot.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.ybiot</groupId>
+				<groupId>cn.iotframe</groupId>
 				<artifactId>biz-user-provider</artifactId>
 				<version>${ybiot.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.ybiot</groupId>
+				<groupId>cn.iotframe</groupId>
 				<artifactId>biz-user-provider-dubbo</artifactId>
 				<version>${ybiot.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.ybiot</groupId>
+				<groupId>cn.iotframe</groupId>
 				<artifactId>biz-push-service</artifactId>
 				<version>${ybiot.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.ybiot</groupId>
+				<groupId>cn.iotframe</groupId>
 				<artifactId>biz-push-service-dubbo</artifactId>
 				<version>${ybiot.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.ybiot</groupId>
+				<groupId>cn.iotframe</groupId>
 				<artifactId>biz-push-provider</artifactId>
 				<version>${ybiot.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.ybiot</groupId>
+				<groupId>cn.iotframe</groupId>
 				<artifactId>biz-push-provider-dubbo</artifactId>
 				<version>${ybiot.version}</version>
 			</dependency>			
 			<dependency>
-				<groupId>com.ybiot</groupId>
+				<groupId>cn.iotframe</groupId>
 				<artifactId>biz-report-service</artifactId>
 				<version>${ybiot.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.ybiot</groupId>
+				<groupId>cn.iotframe</groupId>
 				<artifactId>biz-report-service-dubbo</artifactId>
 				<version>${ybiot.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.ybiot</groupId>
+				<groupId>cn.iotframe</groupId>
 				<artifactId>biz-report-provider</artifactId>
 				<version>${ybiot.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.ybiot</groupId>
+				<groupId>cn.iotframe</groupId>
 				<artifactId>biz-report-provider-dubbo</artifactId>
 				<version>${ybiot.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.ybiot</groupId>
+				<groupId>cn.iotframe</groupId>
 				<artifactId>biz-weixin-service</artifactId>
 				<version>${ybiot.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.ybiot</groupId>
+				<groupId>cn.iotframe</groupId>
 				<artifactId>biz-weixin-service-dubbo</artifactId>
 				<version>${ybiot.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.ybiot</groupId>
+				<groupId>cn.iotframe</groupId>
 				<artifactId>biz-weixin-provider</artifactId>
 				<version>${ybiot.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.ybiot</groupId>
+				<groupId>cn.iotframe</groupId>
 				<artifactId>biz-weixin-provider-dubbo</artifactId>
 				<version>${ybiot.version}</version>
 			</dependency>
 			
 			<!-- common-tool -->
 			<dependency>
-				<groupId>com.ybiot</groupId>
+				<groupId>cn.iotframe</groupId>
 				<artifactId>common-boot</artifactId>
 				<version>${ybiot.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.ybiot</groupId>
+				<groupId>cn.iotframe</groupId>
 				<artifactId>common-boot-web</artifactId>
 				<version>${ybiot.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.ybiot</groupId>
+				<groupId>cn.iotframe</groupId>
 				<artifactId>common-database</artifactId>
 				<version>${ybiot.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.ybiot</groupId>
+				<groupId>cn.iotframe</groupId>
 				<artifactId>common-config</artifactId>
 				<version>${ybiot.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.ybiot</groupId>
+				<groupId>cn.iotframe</groupId>
 				<artifactId>common-emqtt</artifactId>
 				<version>${ybiot.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.ybiot</groupId>
+				<groupId>cn.iotframe</groupId>
 				<artifactId>common-mongo</artifactId>
 				<version>${ybiot.version}</version>
 			</dependency>			
 			<dependency>
-				<groupId>com.ybiot</groupId>
+				<groupId>cn.iotframe</groupId>
 				<artifactId>common-kafka-consumer</artifactId>
 				<version>${ybiot.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.ybiot</groupId>
+				<groupId>cn.iotframe</groupId>
 				<artifactId>common-kafka-producer</artifactId>
 				<version>${ybiot.version}</version>
 			</dependency>			
 			<dependency>
-				<groupId>com.ybiot</groupId>
+				<groupId>cn.iotframe</groupId>
 				<artifactId>common-influxdb</artifactId>
 				<version>${ybiot.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.ybiot</groupId>
+				<groupId>cn.iotframe</groupId>
 				<artifactId>common-elasticsearch</artifactId>
 				<version>${ybiot.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.ybiot</groupId>
+				<groupId>cn.iotframe</groupId>
 				<artifactId>common-solr</artifactId>
 				<version>${ybiot.version}</version>
 			</dependency>
